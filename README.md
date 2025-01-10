@@ -1,8 +1,24 @@
-# Grey Wolf Optimizer
-- O algoritmo GWO imita a hierarquia de liderança e o mecanismo de caça dos lobos cinzentos na natureza. Quatro tipos de lobos cinzentos, como alfa, beta, delta e ômega, são empregados para simular a hierarquia de liderança. Além disso, três etapas principais de caça, procura de presas, cercando a presa e atacando a presa, são implementadas para realizar a otimização (Fonte: Wikipedia).
+# Implementação do Grey Wolf Optimizer (GWO)
 
-<div>
-  <img width="400" src=https://i.guim.co.uk/img/media/8f02bb49224d9a94699b75213664bf898617c062/0_353_5315_3190/master/5315.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=c812148bc6ffc9517558901b73d9a626>
-  <img width="400" height="400" src=https://cdn.roaring.earth/wp-content/uploads/2016/01/wolvesbuff.jpg>
-</div>
+Este repositório contém uma implementação do **Grey Wolf Optimizer (GWO)**, um algoritmo de otimização meta-heurístico inspirado na hierarquia social e na estratégia de caça dos lobos-cinzentos na natureza.
 
+## Principais Funcionalidades
+- **Função Objetivo Personalizável**: Adapte facilmente o otimizador para resolver uma ampla variedade de problemas definindo sua própria função de fitness.
+- **Parâmetros Escaláveis**: Ajuste o número de lobos, iterações e dimensões do problema para melhorar o desempenho da otimização.
+- **Eficiente e Simples**: Projetado para ser leve e de alto desempenho, adequado para tarefas acadêmicas e práticas.
+
+## O que é o GWO?
+O Grey Wolf Optimizer imita a hierarquia de liderança e o comportamento de caça dos lobos-cinzentos, com quatro papéis principais:
+1. **Alpha**: O líder, representando a melhor solução encontrada.
+2. **Beta**: A segunda melhor solução, auxiliando o Alpha na tomada de decisão.
+3. **Delta**: A terceira melhor solução, que guia os lobos de menor hierarquia.
+4. **Omega**: O restante da população, que segue as soluções de maior hierarquia.
+
+Por meio de processos de cercar a presa, explorar e atacar, o algoritmo melhora iterativamente as soluções da população até convergir para um resultado ótimo ou quase ótimo.
+
+## Aplicações
+O algoritmo GWO pode ser aplicado em:
+- Otimização de funções matemáticas
+- Problemas de design em engenharia
+- Ajuste de hiperparâmetros em aprendizado de máquina
+- Problemas de otimização combinatória
